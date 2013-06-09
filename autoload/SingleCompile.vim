@@ -624,6 +624,7 @@ function! s:Initialize() "{{{1
                 \ 'javascript',
                 \ 'ksh',
                 \ 'lisp',
+                \ 'livescript',
                 \ 'lua',
                 \ 'make',
                 \ 'markdown',
