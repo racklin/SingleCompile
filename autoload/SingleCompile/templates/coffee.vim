@@ -1,4 +1,4 @@
-" Copyright (C) 2010-2012 Hong Xu
+" Copyright (C) 2013 Rack Lin
 
 " This file is part of SingleCompile.
 
@@ -17,7 +17,7 @@
 
 " check doc/SingleCompile.txt for more information
 
-function! SingleCompile#templates#coffeescript#Initialize()
+function! SingleCompile#templates#coffee#Initialize()
     call SingleCompile#SetCompilerTemplate('coffee', 'coffee',
                 \'CoffeeScript', 'coffee', '-c $(FILE_NAME)$', 'coffee $(FILE_NAME)$')
 endfunction
